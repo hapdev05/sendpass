@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function Login() {
-  const [, setIp] = useState("Đang lấy...");
+  const [ip, setIp] = useState("Đang lấy...");
 
   useEffect(() => {
     fetch("http://160.191.87.152:5000/get-ip-log") // Thay "your-domain.com" bằng domain của bạn
@@ -19,6 +19,7 @@ function Login() {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
       <h1>Chào mừng bạn đến với Website!</h1>
+      <p>IP của bạn: {ip}</p>
     </div>
   );
 }
